@@ -5,6 +5,7 @@
 		"forceConsistentCasingInFileNames": true,
 		"baseUrl": "src",
 		"declaration": true,
+		"noEmit": true,
 		"sourceMap": true,
 		"esModuleInterop": true,
 		"inlineSourceMap": false,
@@ -27,5 +28,5 @@
     }
 	},
 	"exclude": ["node_modules", "dist", "tests"],
-	"include": ["src/**/*.ts"],
+	"include": ["src/**/*.ts",".env*"],
 }
